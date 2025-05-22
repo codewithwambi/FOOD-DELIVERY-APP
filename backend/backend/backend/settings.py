@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'foods.User'
+
 
 # Application definition
 
@@ -52,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
 
 ROOT_URLCONF = 'backend.urls'
 
